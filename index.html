@@ -3,39 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Official Website - Java Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
-<body>
+<body class="dark-theme">
     <header>
-        <h1>Welcome to My Portfolio</h1>
-        <p>I'm a Web Developer.</p>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <div class="container">
+            <h1>John Doe</h1>
+            <p>Java Full Stack Developer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I am Sahana K, a passionate web developer.</p>
-    </section>
-
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of the project.</p>
+    
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a Java Full Stack Developer with expertise in building scalable and efficient web applications.</p>
         </div>
     </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: 156sharanya@gmail.com</p>
-        <p>GitHub: github.com/sahana196</p>
+    
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Java, Spring Boot, Hibernate</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>MySQL, MariaDB</li>
+                <li>RESTful APIs</li>
+                <li>Git, Agile (Scrum & Kanban)</li>
+            </ul>
+        </div>
     </section>
-
-    <script src="script.js"></script>
+    
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Developed a web application using XHTML, CSS, Java, and MariaDB.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Built a machine learning model for data analysis using Python.</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>Contact Me</p>
+            <p>Email: <a href="mailto:example@example.com">example@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/example/" target="_blank">linkedin.com/in/example</a></p>
+            <p>GitHub: <a href="https://github.com/example" target="_blank">github.com/example</a></p>
+            <p>&copy; 2025 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
